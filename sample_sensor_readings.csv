@@ -1,0 +1,17 @@
+sample_id,timestamp_ist,source,zone,metric,value,unit,note
+S01,2026-01-01T10:00:00+05:30,hc_sr04_ultrasonic,front,distance,40,cm,Object very close ahead (illustrative)
+S02,2026-01-01T10:00:05+05:30,hc_sr04_ultrasonic,front,distance,350,cm,Clear road ahead (illustrative)
+S03,2026-01-01T10:00:10+05:30,mpu6050_imu,vehicle,longitudinal_accel,-8.5,m/s^2,Sudden hard braking (illustrative)
+S04,2026-01-01T10:00:15+05:30,mpu6050_imu,vehicle,longitudinal_accel,-0.4,m/s^2,Normal driving (illustrative)
+S05,2026-01-01T10:00:20+05:30,camera_object_detection,front,pedestrian_confidence,0.91,ratio,Pedestrian detected in front zone (illustrative)
+S06,2026-01-01T10:00:25+05:30,camera_object_detection,front,animal_confidence,0.84,ratio,Animal detected in front zone (illustrative)
+S07,2026-01-01T10:00:30+05:30,camera_object_detection,front,vehicle_confidence,0.95,ratio,Vehicle detected ahead (illustrative)
+S08,2026-01-01T10:00:35+05:30,camera_object_detection,front,obstacle_confidence,0.88,ratio,Obstacle on road ahead (illustrative)
+S09,2026-01-01T10:00:40+05:30,camera_object_detection,left_blind_spot,two_wheeler_confidence,0.89,ratio,Two-wheeler alongside bus (illustrative)
+S10,2026-01-01T10:00:40+05:30,radar_blind_spot,left_blind_spot,object_present,1,boolean,Radar confirms object in left blind spot (illustrative)
+S11,2026-01-01T10:00:45+05:30,driver_camera,driver,eyes_closed_duration,3.0,s,Possible drowsiness (illustrative)
+S12,2026-01-01T10:00:50+05:30,driver_camera,driver,head_turned_away_duration,4.0,s,Possible distraction (illustrative)
+S13,2026-01-01T10:00:55+05:30,driver_camera,driver,eyes_closed_duration,0.2,s,Normal blink; driver attentive (illustrative)
+S14,2026-01-01T10:01:00+05:30,camera_object_detection,front,no_detection,0,count,No hazards in view (illustrative)
+S15,2026-01-01T10:01:05+05:30,gps,vehicle,position,"13.0827;80.2707",lat;lon,Illustrative position in Chennai
+S16,2026-01-01T10:01:10+05:30,v2v_receive,rear_of_bus_a,hazard_message_received,1,boolean,Hazard message received from nearby bus BUS-B (illustrative)
