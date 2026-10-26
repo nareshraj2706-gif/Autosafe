@@ -1,0 +1,2 @@
+# Autosafe
+AutoSafe is an AI/ML-powered smart safety system designed to improve road safety in MTC buses through real-time hazard detection, blind-spot monitoring, driver drowsiness alerts, collision-risk analysis, and vehicle-to-vehicle (V2V) hazard communication. Built around Raspberry Pi 5, ESP32, cameras, and sensors, the proposed system combines edge AI processing with audio-visual warnings to support safer public transportation.
